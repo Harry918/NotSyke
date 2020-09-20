@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+html {
+	height: 100%;
+	background-size:     cover;                      
+	background-repeat:   no-repeat;
+	background-position: center center;      
+}
+.title2 {
+	font-size: 50
+}
+#scroll::-webkit-scrollbar {
+	display: none;
+}
+#card {
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	border-radius: 40;
+    height: 350px;
+    width: 360px;
+	align-items: center;
+	padding: 0;
+	position: relative;
+}
+
+#title-spacing {
+	margin: 15px;
+}
+#title {
+	font-size: 45px;
+	text-align: center;
+	font-family: 'Balsamiq Sans';
+	text-align: center;
+    padding: 15;
+}
+#tab-title {
+	font-family: 'Comfortaa';
+	/* font-size: small; */
+	font-weight: 600;
+	color: black;
+	
+}
+.MuiTabs-indicator {
+	color: 'black'
+}
+.textboxes {
+	margin: 5%;
+}
+#username,
+#password {
+	font-size: medium;
+	font-family: 'Comfortaa';
+	font-weight: 400;
+}
+#submit-button-div {
+	margin-bottom: 0px;
+}
+#submit-button-home {
+	align-items: center;
+	background-color: 'black';
+	font-family: 'Balsamiq Sans';
+	font-size: 13px;
+	padding: 5px 10px;
+	justify-content: center;
+}
+#error{
+	margin-top: 12px;
+	color: red;
+	font-size:13px;
+}
+#info {
+	position: absolute;
+	bottom: 0%;
+	margin-bottom: 7px;
+    margin-left: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	#title {
+		font-size: 30px;
+	}
+	#card {
+		height: 300px;
+		width: 300px;
+	}
+	#tab-title {
+		font-size: 12px;
+	}
+	.textboxes {
+		font-size: 1px;
+	}
+	#username,
+	#password {
+		font-size: small;
+	}
+	#submit-button-home {
+		font-size: 10px;
+		padding: 5px 7px;
+	}
+	#error {
+		margin-top: 8px;
+	}
+	
+}

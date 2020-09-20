@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+#scroll::-webkit-scrollbar {
+    display: none;
+    align-items: center;
+}
+
+#leaving-alert{
+    margin: 0px;
+    width: 250px;
+    position: absolute;
+    bottom: 18%;
+    border-radius: 12px;
+    font-family: 'Balsamiq Sans';
+}
+
+#card-waiting{
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+	
+    height: 450px;
+    width: 360px;
+	align-items: center;
+	padding: 0;
+}
+#submit-button {
+	align-items: center;
+	background-color: 'black';
+	font-family: 'Balsamiq Sans';
+    font-size: 13px;
+    padding-bottom: 3px;
+    margin-top: 10px;
+}
+#waiting-text {
+    background-color: 'red';
+}
+#waiting {
+    font-size: 24px;
+    font-family: 'Balsamiq Sans';
+    font-weight: bold;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+#room {
+    font-size: 30px;
+    font-family: 'Balsamiq Sans';
+    margin-bottom: 15px;
+}
+#member-wrap {
+    width: 300px;
+    background: #FFFFFF;
+    border: 1.5px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    height: 40px;
+    justify-content: 'left'
+}
+#members {
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    color: 'white';
+    background-color: 'white';
+    border: 0px;
+}
+#person {
+    font-family: 'Balsamiq Sans';
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 600px) {
+    #room {
+        font-size: 25px;
+    }
+    #waiting {
+        font-size: 22px;
+    }
+    #member-wrap {
+        width: 200px;
+        height: 35px;
+    }
+    #members {
+        font-size: 20px;
+    }
+    #person {
+        font-size: 25px;   
+    }
+    #leaving-alert {
+        bottom: 40%;
+        font-size: 12px;
+        padding: 1% 2% 1% 2%;
+    }
+}

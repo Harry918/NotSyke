@@ -18,9 +18,9 @@ class Room {
 
     generateRandomQuestions() {
       for (let i = 0; i < this.rounds; i++) {
-        let questionID = Math.floor(Math.random() * 10);
+        let questionID = Math.floor(Math.random() * 120);
         while (this.questions.indexOf(questionID) != -1) {
-          questionID = Math.floor(Math.random() * 10);
+          questionID = Math.floor(Math.random() * 120);
         }
         this.questions.push(questionID);
       }

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+#winner-title {
+    line-height: 150%;
+    font-size: 22px;
+    word-wrap: break-word;
+    display: flex;
+    justify-content: center;
+    font-family: 'Balsamiq Sans';
+    font-weight: bold;
+}
+#card-final {
+	mix-blend-mode: normal;
+	box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 16px;
+    height: 450px;
+    width: 360px;
+	align-items: center;
+	padding: 0px;
+}
+#winner-info-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 2.5%; 
+    width: 225px;
+}
+#loser-info-final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    margin-top: 2.5%; 
+    width: 225px;
+}
+
+#winner-final {
+    font-size: large;
+    font-family: 'Balsamiq Sans';
+
+}
+#loser-final {
+    font-size: 13px;
+    font-family: 'Balsamiq Sans';
+}
+
+#exit-button {
+    font-family: 'Balsamiq Sans';
+    font-size: small;
+}
