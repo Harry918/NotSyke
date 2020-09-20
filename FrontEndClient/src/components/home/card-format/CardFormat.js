@@ -73,8 +73,8 @@ const useStyles = makeStyles({
 //FIXME CHANGE POR FAVOR
 
 const joinRoom = (buttonName, room, name, history, dispatch) => {
-  // const ENDPOINT = 'https://not-syke-dev-api.xyz:5000';
-  const ENDPOINT = "localhost:5000";
+  const ENDPOINT = 'https://not-syke-dev-api.xyz:5000';
+  // const ENDPOINT = "localhost:5000";
   // const ENDPOINT = "http://74ca7de8ca63.ngrok.io";
   socket = io(ENDPOINT, {
     reconnectionAttempts: 1000, // number of reconnection attempts before giving up
